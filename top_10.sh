@@ -1,1 +1,1 @@
-grep Question Analytics_Fall2013.csv | head
+grep Question $1 | head
