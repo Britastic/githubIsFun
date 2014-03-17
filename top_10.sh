@@ -1,1 +1,1 @@
-grep Question $1 | head
+grep Question $1 | head > output.txt
