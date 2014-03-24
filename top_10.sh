@@ -1,1 +1,1 @@
-grep Question $1 | cut -d , | head
+grep Question $1 | head
