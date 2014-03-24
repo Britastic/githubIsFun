@@ -35,5 +35,5 @@ Right-click on the remote's name and select pull.
 ###Note on workflow
 
 It is helpful to pull from the central repository 
-on a semi-regular basis in order to keep up with 
-changes.   
+on a regular basis in order to keep up with 
+changes.

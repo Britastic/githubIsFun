@@ -53,5 +53,5 @@ add and commit them as in 3.
 ###Note on workflow
 
 It is helpful to pull from the central repository 
-on a semi-regular basis in order to keep up with 
+on a regular basis in order to keep up with 
 changes.  
