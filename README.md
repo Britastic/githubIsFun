@@ -12,6 +12,12 @@ For notes on Christina's presentation on how to
 * push commits + submit a pull request
 * pull changes from the master online repository
 
-see the appropriate collaboration file for [SmartGit](collaboration_smartgit.md) or [Bash](collaboration_bash.md).  
+see the appropriate collaboration file for [SmartGit](collaboration_smartgit.md) or [Bash](collaboration_bash.md).  Don't use the GitHub GUI.
 
-For this week's mini-assignment, please follow the directions in the [assignment file](assignment.md).  
+For this week's mini-assignment, please follow the directions in the [assignment file](assignment.md).
+
+Here are some of my favorite links to learn about git:
+* [general reference](http://git-scm.com/)
+* [more focused tutorials](https://www.atlassian.com/git/tutorial)
+* [interactive tutorial on basics](http://try.github.io/levels/1/challenges/1)
+* [interactive tutorial on branching](http://pcottle.github.io/learnGitBranching/)
