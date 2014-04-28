@@ -1,5 +1,8 @@
 Install Instructions
 --------------------
+
+(Taken from the install instructions in github.com/swcarpentry/bc) 
+
 ##git
 
 ###Windows
