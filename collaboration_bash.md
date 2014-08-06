@@ -52,9 +52,9 @@ To do so, type in the terminal:
 	
 The `name-for-remote` could be anything - something simple like "upstream" or "central" is a good choice.  Don't use `master` since that's already a name with a meaning in git.  
 
-To get changes from the central repository, now use the git pull command.   
+To get changes from the central repository, now use the git pull command. 
 	~~~
-	$git pull <name-chosen-above> master
+	$git pull <name-for-remote> master
 	~~~ 
 
 If you have a merge conflict (hopefully not!), edit the documents listed as being in conflict, then 
