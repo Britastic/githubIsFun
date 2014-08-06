@@ -8,14 +8,14 @@ requests to the central repository.
 
 2.  Open your terminal window of choice (for Macs/Linux systems, "Terminal" is 
 a basic option; for Windows, you can use GitBash, which was installed with git).  
-In the terminal, use the cd command to place yourself into the directory where you'd like to copy
+In the terminal, use the `cd` command to place yourself into the directory where you'd like to copy
 the files locally.  Once there, the git clone command will make this local directory for you: 
 	~~~
 	$git clone <url-of-your-fork>
 	~~~
 
 3.  Now you should have a folder (wherever you saved the clone) on your computer 
-that contains all the files from the remote.  Again in the terminal, cd into this local copy.  
+that contains all the files from your fork on GitHub.  Again in the terminal, `cd` into this local copy.  
 Now make your changes; fiddle around with the code; do what you like.  
 Once you've made a series of changes you want to "save", use the 
 following commands in the terminal:
@@ -27,7 +27,7 @@ will show you which files you changed.
 	$git add <files changed>
 	~~~
 "stages" the files, basically creating a list of all the files that you want 
-to include when you "commit."  You can use the flag -A instead of filenames to add all changed files.  
+to include when you "commit."  You can use the flag `-A` instead of the filenames to add all changed files.  
 Then commit. This command will actually "save" a version of your changes that can then be shared online.   
 	~~~
 	$git commit -m "put your commit message describing changes here"
@@ -40,7 +40,7 @@ type in:
 	~~~ 
 This sends your commits (which describe your changes) to your copy of the online repository - the fork created in step 1.  
 	
-5.  Switch to your internet browser and pull up your fork of the repository.  Submit a pull request from your fork (look for a green button 
+5.  Switch to your internet browser and pull up your fork of the repository.  Submit a pull request from your fork to the original online repository (look for a green button 
 somewhere on the repository page).  Add any desired comments and finally click the green "Submit pull request" button.  
 
 6. To update your local copy of the repository from the central repository will require two steps.  First, you must 
@@ -50,9 +50,9 @@ To do so, type in the terminal:
 	$git remote add <name-for-remote> <url-for-master-repo>
 	~~~ 
 	
-The <name-for-remote> could be anything - something simple like "upstream" or "central" is a good choice.  
+The `name-for-remote` could be anything - something simple like "upstream" or "central" is a good choice.  Don't use `master` since that's already a name with a meaning in git.  
 
-To get changes from the central repoisotry, use the git pull command.   
+To get changes from the central repository, now use the git pull command.   
 	~~~
 	$git pull <name-chosen-above> master
 	~~~ 
