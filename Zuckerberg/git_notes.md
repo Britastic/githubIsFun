@@ -84,12 +84,22 @@ Once you have a bunch of commits, you might want to see your history.  To do thi
 or
 
 	git log --oneline`
+	
+To ignore certain files, create a `.gitignore` file.  Ours will look like this: 
+
+~~~
+__pydata__/
+~~~
+
+Save and commit this.  What happens in `git status`?  
+
 
 ### Bits and Bobs
 
+* There are `git` versions of the shell commands `mv`, `cp` and `rm`.  Using `git` before 
+any of these commands will make the appropriate change + then stage the file, ready for committing.  
 * How often to commit?  Your choice, depending on your workflow.  One common saying is "commit early, commit often."  
 * The most recent commit is called the `HEAD` commit
-* To ignore certain files, create a `.gitignore` file
 * To see a previous version of the file, look up its commit hash, and use the syntax: 
 	`git checkout commit_hash file_name`
   To go back to the latest version, use `git checkout HEAD file_name`.  
