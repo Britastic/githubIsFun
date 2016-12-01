@@ -18,6 +18,9 @@ cd
 cd Desktop
 ~~~
 
+> What is version control?  A tool to track changes, back up your work, and 
+collaborate.  Think of Wikipedia.  
+
 ## Track changes locally
 
 Create the repository by running: 
