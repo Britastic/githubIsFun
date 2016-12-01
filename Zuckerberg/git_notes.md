@@ -204,7 +204,7 @@ a pull request from your fork to the original online repository (look for a gree
 somewhere on the repository page).  Add any desired comments and finally 
 click the green "Submit pull request" button.  
 
-You try: add a line of text to your username file.  Commit changes and push to your 
+Exercise: add a line of text to your username file.  Commit changes and push to your 
 fork.  What happens to the pull request?  
 
 To update your local copy of the repository from the central repository 
@@ -228,4 +228,4 @@ To get changes from the central repository, now use the git pull command.
 on a regular basis in order to keep up with 
 changes.  
 * If you're going to submit lots of pull requests, it's a good idea to use branches.  
-See the main readme for a good branching tutorial.  
+See the main README for a good branching tutorial.  
