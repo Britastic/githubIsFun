@@ -10,11 +10,12 @@ of British Columbia math department.  (Spring 2014)
 the University of Wisconsin, Madison.  (December 2016)
 
 Here are some of my favorite links to learn about git:
-* [general reference](http://git-scm.com/)
-* [more focused tutorials](https://www.atlassian.com/git/tutorial)
+* [Software Carpentry Git lesson](http://swcarpentry.github.io/git-novice/)
 * [interactive tutorial on basics](http://try.github.io/levels/1/challenges/1)
 * [interactive tutorial on branching](http://pcottle.github.io/learnGitBranching/)
 * [Happy Git with R](http://happygitwithr.com/) - Jenny Bryan's fabulous resource on getting started with git and R for the complete novice
+* [general reference](http://git-scm.com/)
+* [more focused tutorials](https://www.atlassian.com/git/tutorial)
 
 I've written about some slightly more advanced Git topics on my blog at: 
 * [Care and Keeping of Pull Requests](http://christinalk.github.io/blog/tags/#care-and-keeping-of-prs)
