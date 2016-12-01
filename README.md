@@ -14,6 +14,7 @@ Here are some of my favorite links to learn about git:
 * [more focused tutorials](https://www.atlassian.com/git/tutorial)
 * [interactive tutorial on basics](http://try.github.io/levels/1/challenges/1)
 * [interactive tutorial on branching](http://pcottle.github.io/learnGitBranching/)
+* [Happy Git with R](http://happygitwithr.com/) - Jenny Bryan's fabulous resource on getting started with git and R for the complete novice
 
 I've written about some slightly more advanced Git topics on my blog at: 
 * [Care and Keeping of Pull Requests](http://christinalk.github.io/blog/tags/#care-and-keeping-of-prs)
